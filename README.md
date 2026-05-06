@@ -33,10 +33,9 @@ NUCLEAR ATTACK DETECTED
 ## Repository Structure
 
 ```text
-sonia-nuclear-ics-cybersecurity-lab/
+my-presentation-project/
 ├── README.md
 ├── .gitignore
-├── CHECKLIST.md
 ├── docs/
 │   ├── 01-project-brief.md
 │   ├── 02-lab-architecture.md
@@ -58,19 +57,12 @@ sonia-nuclear-ics-cybersecurity-lab/
 │   └── cleanup-commands.sh
 ├── scripts/
 │   └── check-lab-requirements.sh
-├── assets/
-│   ├── diagrams/
-│   │   └── network-topology.mmd
-│   ├── screenshots/
-│   │   ├── kali-nmap-scan.jpeg
-│   │   ├── snort-alert-detection.jpeg
-│   │   └── demo-frame.jpg
-│   └── demo/
-│       └── demo-highlight.mp4
-└── presentation/
-    ├── sonia-presentation.pptx
-    ├── sonia-presentation.pdf
-    └── exam-topic.pdf
+└── assets/
+    ├── screenshots/
+        ├── kali-nmap-scan.jpeg
+        ├── snort-alert-detection.jpeg
+        └── demo-frame.jpg
+
 ```
 
 ---
