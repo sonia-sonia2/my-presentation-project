@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and runtime outputs
+*.log
+logs/
+*.pcap
+*.pcapng
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large raw media files
+*.mov
+*.avi
+raw-demo.mp4
+original-demo.mp4
+Demo.mp4
+
+# Secrets or local notes
+.env
+secrets.*
+private-notes.*
