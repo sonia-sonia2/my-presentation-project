@@ -1,0 +1,5 @@
+# Snort local rule for the Sonia Mansha ICS/SCADA lab
+# Purpose: Alert when TCP traffic targets Modbus/OpenPLC port 502.
+# Authorized academic lab use only.
+
+alert tcp any any -> any 502 (msg:"NUCLEAR ATTACK DETECTED"; sid:1000001; rev:1;)
